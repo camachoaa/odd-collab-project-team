@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Crimson+Text|Poiret+One');
+body, html
+{
+    height:100%;
+    margin:0;
+}
+body
+{
+    background-color:rgb(252, 251, 249);
+    background-image: url("../img/parkroad.jpg");
+    background-size: cover;
+    background-position: center; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header
+{
+    width: 80%; height:30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 4.5em;
+    color: rgb(255, 140, 0);
+}
+#sub
+{
+    color:white;
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 3%;
+}
+p
+{
+    margin: 0; padding: 0;
+}
+#banner
+{
+    height: 10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section
+{
+    width: 80%; height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box
+{
+    background-color: rgba(0, 255, 255, .7);
+    color:rgb(255, 255, 255);
+    height:25%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1em;
+    padding: 8px;
+}
+.box:hover
+{
+    background-color: rgba(255, 7, 159, .7);
+}
+/*#kayak
+{
+    background-image: url("../img/kayak.jpg");
+    background-repeat: no-repeat;
+}*/
+.details
+{
+    font-family: 'Crimson+Text', serif;
+    font-size: .7em;
+}
+footer
+{
+    width: 80%; height: 10%;
+    background-color: yellow;
+    background-color:rgba(0, 0, 0,.50);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    align-content: space-between;
+    box-sizing: border-box; 
+}
+.a2, .a0, a
+{
+    padding-right: 9%;
+    padding-left: 9%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.a2:hover
+{
+    color: #DE088B;
+    font-weight: bold;         
+}
+.a0
+{
+    text-decoration: none;
+    color: rgba(255, 140, 0, 1);
+    font-weight: bold;
+}
+.a2
+{
+    text-decoration: none;
+    color: #ffffff; 
+}
+#footer
+{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+.title
+{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
+    color: black;
+    padding: 0%;
+}
+/*@import url('https://fonts.googleapis.com/css?family=Anton|Crimson+Text|Poiret+One');
+body, html
+{
+    height:100%;
+}
+body
+{
+    background-color:rgb(252, 251, 249);
+    background-image: url("../img/parkroad.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+header
+{
+    height:30%;
+    display:flex;
+    align-items: center;
+    background-color:rgba(255, 255, 255,.2);
+    font-family: 'Anton', sans-serif;
+    font-size: 4.5em;
+    color: rgba(255, 140, 0, .9);
+}
+#sub
+{
+    color:white;
+    font-size: .5em;
+}
+#banner
+{
+    height: 10%;
+    width:100%;
+    text-align: center;
+}
+section
+{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#box1, #box2, #box3
+{
+    background-color: rgba(0, 255, 255, .7);
+    color:rgb(255, 255, 255);
+    height:25%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.8em;
+}
+footer
+{
+    height: 10%;
+    background-color: yellow;
+    background-color:rgba(255, 255, 255,.50);
+} */
+/*Possible color combos
+Option 1: #395434 #EFEF00 #5A9FA7 #A6BAA5 #688C54 (hunter greem, yellow, light blue, light green, med green)
+Option 2: #3F7733 #6BB23F #86B489 #DEEDE9 #9CD7E4 (dark green, light green, pastel green, white, sky blue)
+Option 3: #097054 #FFDE00 #6599FF #FF9900 (dark green, yellow, blue, orange)*\

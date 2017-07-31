@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Crimson+Text|Poiret+One');
+body, html
+{
+    height: 100%;
+    margin:0;
+}
+body
+{
+    background-image: url("../img/bridgerun.jpg");
+    background-size: cover;
+    background-position: center; 
+   
+}
+header
+{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 4.5em;
+    color: rgb(255, 140, 0);
+}
+
+section 
+{
+    height:40%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around; 
+    align-items: center;
+}
+.box
+{
+    background-color: rgba(0, 255, 255, .7);
+    height: 30%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.8em;
+}
+.box:hover
+{
+    background-color: rgba(255, 7, 159, .7);
+}
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer
+{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+
+
+/*Possible color combos
+Option 1: #395434 #EFEF00 #5A9FA7 #A6BAA5 #688C54 (hunter greem, yellow, light blue, light green, med green)
+Option 2: #3F7733 #6BB23F #86B489 #DEEDE9 #9CD7E4 (dark green, light green, pastel green, white, sky blue)
+Option 3: #097054 #FFDE00 #6599FF #FF9900 (dark green, yellow, blue, orange)
+
+
+header
+{
+    height: 15%;
+    background-color: blue;
+}
+
+section
+{
+    height:70%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+*/
+
